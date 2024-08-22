@@ -1,0 +1,53 @@
+.specs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.specs .dimensions{
+    color: white;
+}
+
+/* .cards{
+    position: relative;
+    
+    
+} */
+
+.card{
+    background-color: #CECFD6;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80%;
+    position: absolute; 
+    top: 100px;
+    left: -30px; 
+    /* z-index: 1; */
+    box-shadow: 10px 10px 28px -6px rgba(0,0,0,0.75);
+    /* bottom:0; */
+
+}
+
+.card .sofaImg{
+    width: 100%;
+    position: relative;
+    /* box-shadow: 10px 10px 28px -6px rgba(0,0,0,0.75); */
+}
+
+.card .arrowImg{
+    position: absolute;
+    bottom:40%;
+    left: -50px;
+    /* top:0; */
+}
+
+@media (max-width: 768px) {
+    .card {
+      position: static; /* Removes the absolute positioning */
+      margin: 10px auto; /* Optional: Add margin if needed */
+    }
+    .arrowImg{
+        display: none;
+    }
+  }
+
+ 

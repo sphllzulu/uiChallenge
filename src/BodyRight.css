@@ -1,0 +1,44 @@
+
+.circles{
+    display: flex;
+    gap: 40px;
+    /* justify-content:space-between; */
+    padding:10px;
+
+}
+
+.circ{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.circActive{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:grey;
+}
+ div.fr{
+    
+    padding : 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0px;
+    /* z-index:1; */
+    gap: 100px;
+    
+}
+
+@media (max-width: 768px) {
+    div.fr {
+      position: static; /* Removes the absolute positioning */
+
+
+      margin: 10px auto; /* Optional: Add margin if needed */
+    }
+  }
+

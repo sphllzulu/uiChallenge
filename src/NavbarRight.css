@@ -1,0 +1,14 @@
+.navRight{
+    display: flex;
+    justify-content: flex-end;
+    padding:20px ;
+}
+
+.navRight input{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    width: 70px;
+    border-bottom: 1px solid grey;
+
+}

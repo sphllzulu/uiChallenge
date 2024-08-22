@@ -1,0 +1,37 @@
+.buttons{
+    padding-top: 50px;
+    display: flex;
+ }
+ .dark-Text{
+    /* padding: 10px; */
+    color: #2B2C33;
+    border:2px solid #2B2C33;
+    width: 80px;
+    text-align:center;
+ }
+ .light-Text{
+    /* padding: 10px; */
+    color: white;
+    background-color: #2B2C33;
+    border:2px solid #2B2C33;
+    width: 80px;
+    text-align: center;
+ }
+
+ .mainLeft{
+    display: flex;
+    flex-direction: column;
+    padding:60px;
+ }
+ .icons{
+    /* padding : 70px 0 ; */
+    margin-top: 80px ;
+    display:flex;
+    justify-content: space-between;
+    padding:0 20px
+}
+.socials{
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-around; */
+}
